@@ -7,3 +7,4 @@ class AppSettings(BaseSettings):
     used_db: DbName
     sqlite_url: typing.Optional[str]
     postgres_url: typing.Optional[str]
+    
